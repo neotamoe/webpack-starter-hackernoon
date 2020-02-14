@@ -86,14 +86,61 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/app/footer.ts":
+/*!***************************!*\
+  !*** ./src/app/footer.ts ***!
+  \***************************/
+/*! exports provided: Footer */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Footer\", function() { return Footer; });\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nvar Footer =\n/*#__PURE__*/\nfunction () {\n  function Footer() {\n    _classCallCheck(this, Footer);\n\n    console.log(\"this is the Footer constructor firing!\");\n    this.footertext = \"Demo for webpack 4 set up\";\n  }\n\n  _createClass(Footer, [{\n    key: \"getFooterText\",\n    value: function getFooterText() {\n      return this.footertext;\n    }\n  }]);\n\n  return Footer;\n}();\n\n//# sourceURL=webpack:///./src/app/footer.ts?");
+
+/***/ }),
+
+/***/ "./src/app/header.js":
+/*!***************************!*\
+  !*** ./src/app/header.js ***!
+  \***************************/
+/*! exports provided: Header */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Header\", function() { return Header; });\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nvar Header =\n/*#__PURE__*/\nfunction () {\n  function Header() {\n    _classCallCheck(this, Header);\n\n    console.log(\"This is header constructor\");\n  }\n\n  _createClass(Header, [{\n    key: \"getFirstHeading\",\n    value: function getFirstHeading() {\n      return \"Webpack Starter Page\";\n    }\n  }]);\n\n  return Header;\n}();\n\n//# sourceURL=webpack:///./src/app/header.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("console.log(\"hello webpack world!\")\n\n//# sourceURL=webpack:///./src/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _app_header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/header */ \"./src/app/header.js\");\n/* harmony import */ var _app_footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app/footer */ \"./src/app/footer.ts\");\n/* harmony import */ var _src_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/style.css */ \"./src/style.css\");\n/* harmony import */ var _src_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_src_style_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _src_styles_scss_main_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/styles/scss/main.scss */ \"./src/styles/scss/main.scss\");\n/* harmony import */ var _src_styles_scss_main_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_src_styles_scss_main_scss__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nvar header = new _app_header__WEBPACK_IMPORTED_MODULE_0__[\"Header\"]();\nvar firstHeading = header.getFirstHeading();\nconsole.log(\"hello webpack world!\");\nconsole.log(\"firstHeading from header.js is: \".concat(firstHeading));\nvar footer = new _app_footer__WEBPACK_IMPORTED_MODULE_1__[\"Footer\"]();\nvar footertext = footer.getFooterText();\nconsole.log(\"this is footertext from header.js: \".concat(footertext));\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/style.css":
+/*!***********************!*\
+  !*** ./src/style.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/style.css?");
+
+/***/ }),
+
+/***/ "./src/styles/scss/main.scss":
+/*!***********************************!*\
+  !*** ./src/styles/scss/main.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/styles/scss/main.scss?");
 
 /***/ })
 

@@ -1,5 +1,7 @@
 import { Header } from './app/header'
 import { Footer } from './app/footer'
+import '../src/style.css'
+import '../src/styles/scss/main.scss'
 
 let header = new Header()
 
