@@ -110,6 +110,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "./src/assets/images/webpack.gif":
+/*!***************************************!*\
+  !*** ./src/assets/images/webpack.gif ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"assets/images/webpack.gif\");\n\n//# sourceURL=webpack:///./src/assets/images/webpack.gif?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -118,7 +130,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _app_header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/header */ \"./src/app/header.js\");\n/* harmony import */ var _app_footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app/footer */ \"./src/app/footer.ts\");\n/* harmony import */ var _src_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/style.css */ \"./src/style.css\");\n/* harmony import */ var _src_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_src_style_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _src_styles_scss_main_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/styles/scss/main.scss */ \"./src/styles/scss/main.scss\");\n/* harmony import */ var _src_styles_scss_main_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_src_styles_scss_main_scss__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nvar header = new _app_header__WEBPACK_IMPORTED_MODULE_0__[\"Header\"]();\nvar firstHeading = header.getFirstHeading();\nconsole.log(\"hello webpack world!\");\nconsole.log(\"firstHeading from header.js is: \".concat(firstHeading));\nvar footer = new _app_footer__WEBPACK_IMPORTED_MODULE_1__[\"Footer\"]();\nvar footertext = footer.getFooterText();\nconsole.log(\"this is footertext from header.js: \".concat(footertext));\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _app_header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/header */ \"./src/app/header.js\");\n/* harmony import */ var _app_footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app/footer */ \"./src/app/footer.ts\");\n/* harmony import */ var _src_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/style.css */ \"./src/style.css\");\n/* harmony import */ var _src_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_src_style_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _src_styles_scss_main_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/styles/scss/main.scss */ \"./src/styles/scss/main.scss\");\n/* harmony import */ var _src_styles_scss_main_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_src_styles_scss_main_scss__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _assets_images_webpack_gif__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/images/webpack.gif */ \"./src/assets/images/webpack.gif\");\n\n\n\n\n\nvar header = new _app_header__WEBPACK_IMPORTED_MODULE_0__[\"Header\"]();\nvar firstHeading = header.getFirstHeading();\nconsole.log(\"hello webpack world!\");\nconsole.log(\"firstHeading from header.js is: \".concat(firstHeading));\nvar footer = new _app_footer__WEBPACK_IMPORTED_MODULE_1__[\"Footer\"]();\nvar footertext = footer.getFooterText();\nconsole.log(\"this is footertext from header.js: \".concat(footertext)); // set source of imgs\n// set here as file-loader only loads assets referenced in modules (js or ts)\n\ndocument.getElementById('webpack-gif').setAttribute('src', _assets_images_webpack_gif__WEBPACK_IMPORTED_MODULE_4__[\"default\"]);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
